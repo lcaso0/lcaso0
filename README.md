@@ -7,8 +7,6 @@
 ### 🐹 main.go
 
 ```go
-package main
-
 type Developer struct {
     Role, Focus, Challenge string
     Learning               []string
@@ -23,12 +21,7 @@ var lcaso0 = Developer{
     Role:      "Software Engineering Student @ KFUPM 🇸🇦",
     Focus:     "Advanced Data Structures & Algorithms 🧠",
     Learning:  []string{"Go 🐹", "Rust 🦀"},
-    
-    TechStack: map[string][]string{
-        "Languages": {"TypeScript", "JavaScript", "Python", "Java"},
-        "Frontend":  {"Next.js", "React", "SvelteKit", "TailwindCSS"},
-        "Backend":   {"Node.js", "Postgres", "MySQL", "MongoDB", "Express"},
-    },
+    Languages: []string{"TypeScript", "JavaScript", "Python", "Java"},
 
     Quest_Log: []Project{
         {
