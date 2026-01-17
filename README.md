@@ -53,17 +53,27 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lcaso0&show_icons=true&theme=tokyonight" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=lcaso0&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26" alt="GitHub Stats" />
+  </a>
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lcaso0&theme=tokyonight" />
+  <a href="https://github.com/denvercoder1/github-readme-streak-stats">
+    <img src="https://github-readme-streak-stats.demolab.com/?user=lcaso0&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=1a1b26" alt="Streak Stats" />
+  </a>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lcaso0&layout=compact&theme=tokyonight" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lcaso0&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26" alt="Top Languages" />
+  </a>
 </p>
 
 ---
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=lcaso0&theme=tokyonight&margin-w=10)
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=lcaso0&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+  </a>
+</p>
 
 ---
 
@@ -72,4 +82,6 @@
 
 ---
 
-![Profile Views](https://visitcount.itsvg.in/api?id=lcaso0&icon=2&color=12)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=lcaso0&label=Profile%20Views&color=blue&style=for-the-badge&logo=github" alt="Profile Views" />
+</p>
