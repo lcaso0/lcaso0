@@ -4,17 +4,44 @@
 
 </div>
 
-### 📂 user_profile.ts
+### 🐹 main.go
 
-```typescript
-const lcaso0 = {
-  role: "Software Engineering Student",
-  current_focus: "Building an English vocabulary education app",
-  learning: ["tRPC", "Full-stack patterns"],
-  tech_stack: {
-    languages: ["TypeScript", "JavaScript", "Go", "Java"],
-    frontend: ["Next.js", "React", "SvelteKit", "TailwindCSS"],
-    backend: ["Node.js", "Postgres", "MySQL", "MongoDB"],
-  },
-  challenge: "I genuinely love coding and problem-solving"
-};
+```go
+package main
+
+type Developer struct {
+    Role, Focus, Challenge string
+    Learning               []string
+    TechStack              map[string][]string
+}
+
+type Project struct {
+    Name, Stack, Status string
+}
+
+var lcaso0 = Developer{
+    Role:      "Software Engineering Student @ KFUPM 🇸🇦",
+    Focus:     "Advanced Data Structures & Algorithms 🧠",
+    Learning:  []string{"Go 🐹", "Rust 🦀"},
+    
+    TechStack: map[string][]string{
+        "Languages": {"TypeScript", "JavaScript", "Python", "Java"},
+        "Frontend":  {"Next.js", "React", "SvelteKit", "TailwindCSS"},
+        "Backend":   {"Node.js", "Postgres", "MySQL", "MongoDB", "Express"},
+    },
+
+    Quest_Log: []Project{
+        {
+            Name:   "English Vocab App",
+            Stack:  "Nextjs, Clerk, TypeScript, Authjs, Tailwind, Prisma",
+            Status: "✅ Completed (Legacy)",
+        },
+        {
+            Name:   "Students' Document and Resources Manager",
+            Stack:  "Nextjs, TypeScript, Tailwind, Shadcn, Drizzle, Supabase",
+            Status: "🚧 In Progress (Building)",        
+        },
+    },
+    
+    Challenge: "I genuinely love coding and problem-solving",
+}
